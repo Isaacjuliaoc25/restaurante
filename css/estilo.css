@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
 /* Estilo Propio */
 
 /* Componente Menú Hamburguesa */
-aside#menu-hamburguesa { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: rgba(208, 15, 15, 0.9); }
+aside#menu-hamburguesa { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: rgba(95, 5, 5, 0.699); }
 
 aside#menu-hamburguesa a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 15px; right: -35px; background: rgb(255, 255, 255); color: #000000; text-align: center; padding: 6px 0; font-size: 1.25em; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
 aside#menu-hamburguesa a#abrir:hover { background: rgb(255, 217, 0); transition: all 0.3s ease-in; }
@@ -32,7 +32,7 @@ aside#menu-hamburguesa a#cerrar { width: 35px; height: auto; display: none; marg
 aside#menu-hamburguesa a#cerrar:hover { background: rgb(255, 217, 0); transition: all 0.3s ease-in; }
 
 aside#menu-hamburguesa nav { height: auto; width: 80%; margin: 10% auto; float: none; position: relative; }
-aside#menu-hamburguesa nav a { width: 100%; height: auto; display: block; margin: 0 auto 15px; float: none; position: relative; text-align: center; font-size: 1.25em; line-height: 1em; padding: 10px 0; color: #fff; letter-spacing: 0.07em; font-family: 'Permanent Marker', cursive; text-decoration: none; transition: all 0.3s ease-in; }
+aside#menu-hamburguesa nav a { width: 100%; height: auto; display: block; margin: 0 auto 15px; float: none; position: relative; text-align: center; font-size: 1.25em; line-height: 1em; padding: 10px 0; color: #fff; letter-spacing: 0.07em; font-family: 'Roboto', sans-serif; text-decoration: none; transition: all 0.3s ease-in; }
 aside#menu-hamburguesa nav a:hover { color: rgb(255, 217, 0); transition: all 0.3s ease-in; }
 
 
@@ -45,7 +45,7 @@ aside#boton-whatsapp a:hover { background: #d00f0f; transition: all 0.3s ease-in
 
 
 /* Componente Header Logo y Menú */
-header { width: 100%; height: 90px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99990;  no-repeat bottom center transparent; }
+header { width: 100%; height: 100px; margin: 0 auto; float: none; position: fixed; top: 0; left: 0; z-index: 99990; background: url(../img/14589.jpg) no-repeat bottom center transparent; background-size: cover; }
 header article { width: 1100px; height: 90px; margin: 0 auto; float: none; position: relative; }
 
 header article figure { width: 94px; height: 110px; margin: 0; float: left; position: relative; }
@@ -53,9 +53,9 @@ header article figure a { width: 100%; height: auto; margin: 0 auto; float: none
 header article figure a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
 header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
 
-header article nav { width: 430px; height: 40px; margin: 22px 0; float: right; position: relative; }
+header article nav { width: 600px; height: 40px; margin: 22px 0; float: right; position: relative; }
 header article nav a { width: auto; height: auto; margin: 0 15px; float: left; position: relative; display: block; padding: 12px 0; text-decoration: none; color: #fff; font-weight: 400; font-size: 1em; line-height: 1em; text-transform: uppercase; letter-spacing: 0.09em; text-shadow: 0 0 8px rgb(0 0 0 / 70%); transition: all 0.3s ease-in; }
-header article nav a:hover { color: rgb(97, 0, 0); text-shadow: 0 0 8px rgb(0 0 0 / 30%); transition: all 0.3s ease-in; }
+header article nav a:hover { color: rgb(255, 208, 0); text-shadow: 0 0 8px rgb(0 0 0 / 30%); transition: all 0.3s ease-in; }
 
 
 
@@ -91,28 +91,26 @@ main section.menu article div.zona-menu figure div.info-producto p.precio-produc
 
 main section.menu div#ancla-burger,
 main section.menu div#ancla-pizza,
-main section.menu div#ancla-hotdogs
-main section.menu div#ancla-chuzos,
 main section.menu div#ancla- { width: 100%; height: 1px; display: block; margin: 0; float: none; position: absolute; top: -120px; left: 0; background: transparent; }
 
 
 
 /* Componente Destacados 3 Columnas */
-section#combos { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
+section#postres { width: 100%; height: auto; margin: 0 auto 90px; float: none; position: relative; }
 
-section#combos div#ancla-combos { width: 100%; height: 1px; display: block; margin: 0; float: none; position: absolute; top: -170px; left: 0; background: transparent; }
+section#postres div#ancla-postres { width: 100%; height: 1px; display: block; margin: 0; float: none; position: absolute; top: -170px; left: 0; background: transparent; }
 
-section#combos article { width: 1100px; height: 238px; margin: 0 auto; float: none; position: relative; }
-section#combos article nav { width: 100%; height: 238px; margin: 0 auto; float: none; position: relative; }
+section#postres article { width: 1100px; height: 238px; margin: 0 auto; float: none; position: relative; }
+section#postres article nav { width: 100%; height: 238px; margin: 0 auto; float: none; position: relative; }
 
-section#combos article nav a { width: 350px; height: 238px; margin: 0 25px 0 0; float: left; position: relative; display: block; transition: all 0.3s ease-in; }
+section#postres article nav a { width: 350px; height: 238px; margin: 0 25px 0 0; float: left; position: relative; display: block; transition: all 0.3s ease-in; }
 
-section#combos article nav a:last-child { margin: 0; }
+section#postres article nav a:last-child { margin: 0; }
 
-section#combos article nav a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; filter: saturate(1.3); transition: all 0.3s ease-in; }
+section#postres article nav a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; filter: saturate(1.3); transition: all 0.3s ease-in; }
 
-section#combos article nav a:hover { transform: translateY(-10px); transition: all 0.3s ease-in; }
-section#combos article nav a:hover img { filter: saturate(1.7); transition: all 0.3s ease-in; }
+section#postres article nav a:hover { transform: translateY(-10px); transition: all 0.3s ease-in; }
+section#postres article nav a:hover img { filter: saturate(1.7); transition: all 0.3s ease-in; }
 
 
 
@@ -151,10 +149,10 @@ footer figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
     main section.menu article div.zona-menu figure div.info-producto p.precio-producto { width: 100%; margin: 0 auto; float: none; position: relative; top: 0; right: 0; text-align: center; font-size: 1.3em; }
 
 
-    section#combos article { width: 80%; height: auto; }
-    section#combos article nav { width: 100%; height: auto; }
-    section#combos article nav a { width: 290px; height: 197px; margin: 0 auto 25px; float: none; }
-    section#combos article nav a:last-child { margin: 0 auto 25px; }
+    section#postres article { width: 80%; height: auto; }
+    section#postres article nav { width: 100%; height: auto; }
+    section#postres article nav a { width: 290px; height: 197px; margin: 0 auto 25px; float: none; }
+    section#postres article nav a:last-child { margin: 0 auto 25px; }
 }
 
 /* Móviles Grandes */
