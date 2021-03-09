@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Título de página -->
+        <title>Landing Page Restaurante</title>
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+        
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        
+        <!-- Componente Menú Hamburguesa -->
+        <aside id="menu-hamburguesa">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+            
+            <nav>
+                <a href="#ancla-burger">Burgers</a>
+                <a href="#ancla-pizzas">Pizzas</a>
+                <a href="#ancla-postres">Postres</a>
+                <a href="#ancla-hotdogs">Hot Dogs</a>
+                <a href="#ancla-chuzos">Chuzos</a>
+            </nav>
+        </aside>
+        <!-- Componente Botón WhatsApp -->
+        <aside id="boton-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=573006225789" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Header Logo y Menú -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/logo burger.png">
+                    </a>
+                </figure>
+                
+                <nav>
+                    <a href="#ancla-burger">Burgers</a>
+                    <a href="#ancla-pizzas">Pizzas</a>
+                    <a href="#ancla-postres">Postres</a>
+                    <a href="#ancla-hotdogs">Hot Dogs</a>
+                    <a href="#ancla-chuzos">Chuzos</a>
+                </nav>
+            </article>
+        </header>
+
+        <!-- Caja Main -->
+        <main>
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="burger" class="menu">
+                <div id="ancla-burger"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6>
+                            <img src="img/food-and-bevarge-header.jpg"
+                        </h6>
+                        <h3>Burgers</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/Crispy-Chicken-Burger-square-FS-4518-500x375.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Crispy Chicken Burger</h4>
+                                <p class="texto-producto">Pechuga de pollo crispy, queso americano fundido, lechuga, tomate, cebolla, salsa de tomate y mayonesa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$10.000</p>
+                            </div>
+                        </figure>
+
+                            <figure>
+                                <img src="img/burger.jpg">
+                                <div class="info-producto">
+                                    <h4>Classic Burger</h4>
+                                    <p class="texto-producto">Carne, queso americano fundido, lechuga, tomate, cebolla, salsa de tomate y mayonesa de la casa.</p>
+                                    <div class="puntos"></div>
+                                    <p class="precio-producto">$10.000</p>
+                                </div>
+                            </figure>
+
+                        <figure>
+                            <img src="img/exps28800_UG143377D12_18_1b_RMS.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Barbecue Burger</h4>
+                                <p class="texto-producto">Carne premium, queso americano fundido, salsa BBQ artesanal, anillos de cebolla apanados, lechuga romana, tomate y mayonesa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$12.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/Chickpea--n--Red-Onion-Burgers_EXPS_THAM18_36587_B10_07_5b.jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Red Onion</h4>
+                                <p class="texto-producto">Carne premium, anillos de cebolla roja caramelizada, bañados en salsa BBQ artesanal, queso americano fundido, lechuga romana y tomate..</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$25.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/b9c915f9cd2a9c1c70f1eca7e4618aa4.jpg">
+                            <div class="info-producto">
+                                <h4>Sweet Mayo</h4>
+                                <p class="texto-producto">Doble carne premium, queso americano fundido, lechuga, tomate, sweet mayo, cebolla y salsa de tomate.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$22.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/Chorizo-Burger-Mexican-Street-Corn-Fritters-Recipe-3.jpg">
+                            <div class="info-producto">
+                                <h4>Chorizo Burger</h4>
+                                <p class="texto-producto">Carne premium salteado con chorizo, queso americano fundido, lechuga, tomate, anillos de cebolla, salsa de tomate y mayonesa de la casa.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$18.000</p>
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="pizza" class="menu">
+                <div id="ancla-pizzas"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Pizzas</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/como-hacer-pizza-hawaiana.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Especialidad</h5>
+                                <h4>Pizza Hawaiina</h4>
+                                <p class="texto-producto">Piña caramelizada, jamón, mozarella, pollo.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$25.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/masa-pizza-casera.jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Caprichosa</h4>
+                                <p class="texto-producto">Pimentón verde, cebolla blanca, pollo, cábano, salami, jamón y champiñones. salteada y fosforitos de plátano verde. Vegetales salteados en aceite de oliva, queso parmesano.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$22.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/S_PIZAX.jpg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>4 Carnes</h4>
+                                <p class="texto-producto">Jamón, lomo fino, cerdo, búfalo.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$22.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/pizza-con-chorizo-jamon-y-queso.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recommended</h5>
+                                <h4>Pizza con chorizo, jamón y queso</h4>
+                                <p class="texto-producto">Chorizo, butifarra, pimentón, jamón, mozarella.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$26.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/th5-640x426-14624.jpg">
+                            <div class="info-producto">
+                                <h4>Abuelita</h4>
+                                <p class="texto-producto">Tomates cherry, mozarella, base integral.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$20.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/vegg.jpg">
+                            <div class="info-producto">
+                                <h4>Veggie Pizza</h4>
+                                <p class="texto-producto">Vegetales salteados en aceite de oliva, queso parmesano, tomate cherry.</p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$15.000</p>
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Componente Destacados 3 Columnas -->
+            <section id="postres">
+                <div id="ancla-postres"></div>
+                <article>
+                    <nav>
+                        <a target="_blank">
+                            <img src="img/Postres-sin-horno-que-deleitarán-a-todos-en-tu-hogar-2.jpg">
+                        </a>
+
+                        <a target="_blank">
+                            <img src="img/Recurso 1.png">
+                        </a>
+
+                        <a target="_blank">
+                            <img src="img/Recurso 3.png">
+                        </a>
+                    </nav>
+                </article>
+            </section>
+
+            <!-- Componente Sección tipo Menú a 2 Columnas -->
+            <section id="Hot Dogs" class="menu">
+                <div id="ancla-hotdogs"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Hot Dogs</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/italohawaiiano.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>ItaloHawaiiano</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$15.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/burrito.jpeg">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Sencillo</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$8.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/holandes.png">
+                            <div class="info-producto">
+                                <h5 class="new">Nuevo</h5>
+                                <h4>Holandés</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$12.000</p>
+                            </div>
+                        </figure>
+
+                        <figure>
+                            <img src="img/mexico.jpg">
+                            <div class="info-producto">
+                                <h4>Mexicano</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$12.000</p>
+                            </div>
+                        </figure>
+
+                            </div>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+            <section id="Chuzos Desgranados" class="menu">
+                <div id="ancla-chuzos"></div>
+                <article>
+                    <div class="zona-titulos">
+                        <h6></h6>
+                        <h3>Chuzos Desgranados</h3>
+                    </div>
+
+                    <div class="zona-menu">
+                        <figure>
+                            <img src="img/desgranado_de_lomito.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Chuzo de Carne</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$15.000</p>
+                            </div>
+                        </figure>
+
+                            <figure>
+                                <img src="img/desgranado libanesa.jpeg">
+                                <div class="info-producto">
+                                    <h5 class="reco">Recomendado</h5>
+                                    <h4>Chuzo Libanesa</h4>
+                                    <p class="texto-producto"></p>
+                                    <div class="puntos"></div>
+                                    <p class="precio-producto">$15.000</p>
+                             </div>
+                         </figure>
+
+                         <figure>
+                            <img src="img/desgranado-de-pollo-con.jpg">
+                            <div class="info-producto">
+                                <h5 class="reco">Recomendado</h5>
+                                <h4>Chuzo Sencillo</h4>
+                                <p class="texto-producto"></p>
+                                <div class="puntos"></div>
+                                <p class="precio-producto">$15.000</p>
+                            </div>
+                        </figure>
+                     </div>
+                </article>
+            </section>
+        </main>
+
+        <!-- Componente Footer Logo al Centro -->
+        <footer>
+            <figure>
+                <a href="index.html">
+                    <img src="img/logo burger.png"
+                </a>
+            </figure>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
